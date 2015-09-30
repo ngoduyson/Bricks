@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		060921C51BBC003B0033B3F4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 060921C41BBC003B0033B3F4 /* AppDelegate.swift */; };
-		060921C71BBC003B0033B3F4 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 060921C61BBC003B0033B3F4 /* GameScene.sks */; };
 		060921C91BBC003B0033B3F4 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 060921C81BBC003B0033B3F4 /* GameScene.swift */; };
 		060921CB1BBC003B0033B3F4 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 060921CA1BBC003B0033B3F4 /* GameViewController.swift */; };
 		060921CE1BBC003B0033B3F4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 060921CC1BBC003B0033B3F4 /* Main.storyboard */; };
@@ -30,7 +29,6 @@
 /* Begin PBXFileReference section */
 		060921C11BBC003B0033B3F4 /* Bricks.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Bricks.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		060921C41BBC003B0033B3F4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		060921C61BBC003B0033B3F4 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
 		060921C81BBC003B0033B3F4 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
 		060921CA1BBC003B0033B3F4 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
 		060921CD1BBC003B0033B3F4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -82,7 +80,6 @@
 			isa = PBXGroup;
 			children = (
 				060921C41BBC003B0033B3F4 /* AppDelegate.swift */,
-				060921C61BBC003B0033B3F4 /* GameScene.sks */,
 				060921C81BBC003B0033B3F4 /* GameScene.swift */,
 				060921CA1BBC003B0033B3F4 /* GameViewController.swift */,
 				060921CC1BBC003B0033B3F4 /* Main.storyboard */,
@@ -182,7 +179,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				060921C71BBC003B0033B3F4 /* GameScene.sks in Resources */,
 				060921D31BBC003B0033B3F4 /* LaunchScreen.storyboard in Resources */,
 				060921D01BBC003B0033B3F4 /* Assets.xcassets in Resources */,
 				060921CE1BBC003B0033B3F4 /* Main.storyboard in Resources */,
@@ -394,6 +390,7 @@
 				060921E41BBC003C0033B3F4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		060921E51BBC003C0033B3F4 /* Build configuration list for PBXNativeTarget "BricksTests" */ = {
 			isa = XCConfigurationList;
@@ -402,6 +399,7 @@
 				060921E71BBC003C0033B3F4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
